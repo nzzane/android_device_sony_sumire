@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/sumire/full_sumire.mk)
+$(call inherit-product, device/sony/sumire/full_suzuran.mk)
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
@@ -22,11 +22,11 @@ $(call inherit-product, vendor/carbon/config/gsm.mk)
 # Inherit Carbon product configuration
 $(call inherit-product, vendor/carbon/config/common.mk)
 
-PRODUCT_NAME := carbon_sumire
+PRODUCT_NAME := carbon_suzuran
 
 # Use the latest approved GMS identifiers
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=sumire \
-    BUILD_FINGERPRINT=Sony/sumire/sumire:7.0/KITAKAMI-2.2.0-170123-1244/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="sumire-user 7.0 KITAKAMI-2.2.0-170123-1244 1 dev-keys"
+    PRODUCT_NAME=suzuran \
+    BUILD_FINGERPRINT=Sony/suzuran/suzuran:7.0/KITAKAMI-2.2.0-170123-1244/1:user/dev-keys \
+    PRIVATE_BUILD_DESC="suzuran-user 7.0 KITAKAMI-2.2.0-170123-1244 1 dev-keys"
