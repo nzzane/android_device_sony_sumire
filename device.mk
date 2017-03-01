@@ -18,7 +18,7 @@
 $(call inherit-product, device/sony/kitakami-common/device-common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/sony/sumire/sumire-vendor.mk)
+$(call inherit-product, vendor/sony/suzuran/suzuran-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -54,14 +54,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version.xml
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Dalvik/HWUI
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # init
@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC config
 PRODUCT_PACKAGES += \
-    nfc_nci.sumire
+    nfc_nci.suzuran
 
 # GPS
 PRODUCT_COPY_FILES += \
