@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/sumire/full_suzuran.mk)
+$(call inherit-product, device/sony/suzuran/full_suzuran.mk)
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
