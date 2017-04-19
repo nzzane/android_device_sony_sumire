@@ -23,6 +23,7 @@ TARGET_USE_SDCLANG := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E5803,E5823,suzuran
+
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_suzuran_defconfig
 TARGET_COMPILE_WITH_MSM_KERNEL := true
@@ -32,6 +33,7 @@ BOARD_HAVE_BCM_FM := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_generic.txt
 
 # NFC
 NFC_NXP_CHIP_TYPE := PN547C2
