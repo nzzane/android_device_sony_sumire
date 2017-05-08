@@ -28,5 +28,5 @@ PRODUCT_NAME := carbon_suzuran
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=suzuran \
-    BUILD_FINGERPRINT=Sony/suzuran/suzuran:7.0/KITAKAMI-2.2.0-170123-1244/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="suzuran-user 7.0 KITAKAMI-2.2.0-170123-1244 1 dev-keys"
+    BUILD_FINGERPRINT=Sony/suzuran/suzuran:7.0/KITAKAMI-2.2.1-170315-2214/1:user/dev-keys \
+    PRIVATE_BUILD_DESC="suzuran-user 7.0 KITAKAMI-2.2.1-170315-2214 1 dev-keys"

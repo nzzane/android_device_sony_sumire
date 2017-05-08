@@ -99,6 +99,9 @@ ro.use_data_netmgrd=true
 ro.data.large_tcp_window_size=true
 ro.ril.telephony.mqanelements=5
 ro.telephony.default_network=9
+persist.telephony.oosisdc=false
+telephony.lteOnCdmaDevice=0
+telephony.lteOnGsmDevice=1
 DEVICE_PROVISIONED=1
 
 # Sensors
@@ -119,6 +122,10 @@ ro.sony.sensors.dpc=false
 ro.sony.sensors.pug=false
 ro.qc.sdk.sensors.gestures=true
 
+# Assertive Display
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/ad_calib.cfg
+
 # Wifi
 wifi.interface=wlan0
 
@@ -128,5 +135,8 @@ ro.semc.ms_type_id=PM-0880-BV
 ro.semc.product.device=E58
 ro.semc.product.model=E5823
 ro.semc.product.name=Xperia Z5 Compact
+ro.semc.version.cust=1298-1220
+ro.semc.version.cust.active=
+ro.semc.version.cust_revision=R5D
 ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=32.3.A.0.376
+ro.semc.version.fs_revision=32.3.A.2.33
